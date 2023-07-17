@@ -1,0 +1,19 @@
+Launch an instance
+Install Git
+
+*Build an Applicatino using Maven*
+
+Install Maven
+ - Run the maven from anyone point for that set the environment variable using export.
+Install Java
+Install Tomcat (deploy on tomcat server)
+ - under tomcat folder, in webapps put the application .war file
+ - under tomcat folder, in bin, start the tomcat shell script.
+On browser, see the output,
+ - publicip:8080/projectfile
+
+The .jar convert into an .war ,
+ - jar -xvf projectname.war 
+
+Port
+ - 8080 - apache tomcat port 
